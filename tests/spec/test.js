@@ -39,6 +39,10 @@ describe('intToRGB', function () {
   });
 
   it('16777215 to be "#FFFFFF"', function () {
+    expect(intToRGB(16777214)).toBe('#FFFFFE');
+  });
+
+  it('16777215 to be "#FFFFFF"', function () {
     expect(intToRGB(16777215)).toBe('#FFFFFF');
   });
 
