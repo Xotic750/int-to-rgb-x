@@ -26,7 +26,7 @@
  *
  * Requires ES3 or above.
  *
- * @version 1.0.0
+ * @version 1.0.1
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
@@ -39,7 +39,7 @@ var toUint24 = require('to-uint-24-x');
 var padStart = require('string.prototype.padstart');
 
 var intToRGB = function _intToRGB(i) {
-  return padStart(toUint24(i).toString(16), 6, '0').toUpperCase();
+  return '#' + padStart(toUint24(i).toString(16), 6, '0').toUpperCase();
 };
 
 /**
@@ -50,6 +50,6 @@ var intToRGB = function _intToRGB(i) {
  * @return {string} The RGB hexadecimal notation: #RRGGBB
  * @example
  * var intToRGB = require('int-to-rgb-x');
- * intToRGB()1; // "000001"
+ * intToRGB()1; // "#000001"
  */
 module.exports = intToRGB;

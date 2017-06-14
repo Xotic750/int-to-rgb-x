@@ -27,7 +27,7 @@ Convert an integer to a RGB string module.
 
 Requires ES3 or above.
 
-**Version**: 1.0.0  
+**Version**: 1.0.1  
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
@@ -47,5 +47,5 @@ into 6 digit RGB notation.
 **Example**  
 ```js
 var intToRGB = require('int-to-rgb-x');
-intToRGB()1; // "000001"
+intToRGB()1; // "#000001"
 ```
