@@ -1,8 +1,8 @@
 {
-  "name": "into-to-rgb-x",
+  "name": "int-to-rgb-x",
   "version": "1.0.0",
   "description": "Convert an integer to a RGB string module.",
-  "homepage": "https://github.com/Xotic750/into-to-rgb-x",
+  "homepage": "https://github.com/Xotic750/int-to-rgb-x",
   "author": {
     "name": "Graham Fairweather",
     "email": "xotic750@gmail.com"
@@ -22,10 +22,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Xotic750/into-to-rgb-x.git"
+    "url": "https://github.com/Xotic750/int-to-rgb-x.git"
   },
   "bugs": {
-    "url": "https://github.com/Xotic750/into-to-rgb-x/issues"
+    "url": "https://github.com/Xotic750/int-to-rgb-x/issues"
   },
   "dependencies": {
     "string.prototype.padstart": "^3.0.0",
@@ -72,8 +72,8 @@
     "lint": "eslint *.js tests/spec/*.js",
     "security": "nsp check",
     "test": "jasmine-node --matchall tests/spec/",
-    "browserify": "browserify -p browserify-derequire -e index.js -o lib/into-to-rgb-x.js -u 'crypto' -s returnExports",
-    "uglify": "uglifyjs lib/into-to-rgb-x.js -o lib/into-to-rgb-x.min.js --support-ie8 --compress --keep-fnames --mangle --beautify ascii_only=true,beautify=false --source-map filename=lib/into-to-rgb-x.map",
+    "browserify": "browserify -p browserify-derequire -e index.js -o lib/int-to-rgb-x.js -u 'crypto' -s returnExports",
+    "uglify": "uglifyjs lib/int-to-rgb-x.js -o lib/int-to-rgb-x.min.js --support-ie8 --compress --keep-fnames --mangle --beautify ascii_only=true,beautify=false --source-map filename=lib/int-to-rgb-x.map",
     "precommit": "npm run build:all",
     "prepush": "npm run build:all"
   }

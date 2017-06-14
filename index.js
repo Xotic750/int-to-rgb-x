@@ -1,24 +1,24 @@
 /**
  * @file
- * <a href="https://travis-ci.org/Xotic750/into-to-rgb-x"
+ * <a href="https://travis-ci.org/Xotic750/int-to-rgb-x"
  * title="Travis status">
  * <img
- * src="https://travis-ci.org/Xotic750/into-to-rgb-x.svg?branch=master"
+ * src="https://travis-ci.org/Xotic750/int-to-rgb-x.svg?branch=master"
  * alt="Travis status" height="18">
  * </a>
- * <a href="https://david-dm.org/Xotic750/into-to-rgb-x"
+ * <a href="https://david-dm.org/Xotic750/int-to-rgb-x"
  * title="Dependency status">
- * <img src="https://david-dm.org/Xotic750/into-to-rgb-x.svg"
+ * <img src="https://david-dm.org/Xotic750/int-to-rgb-x.svg"
  * alt="Dependency status" height="18"/>
  * </a>
  * <a
- * href="https://david-dm.org/Xotic750/into-to-rgb-x#info=devDependencies"
+ * href="https://david-dm.org/Xotic750/int-to-rgb-x#info=devDependencies"
  * title="devDependency status">
- * <img src="https://david-dm.org/Xotic750/into-to-rgb-x/dev-status.svg"
+ * <img src="https://david-dm.org/Xotic750/int-to-rgb-x/dev-status.svg"
  * alt="devDependency status" height="18"/>
  * </a>
- * <a href="https://badge.fury.io/js/into-to-rgb-x" title="npm version">
- * <img src="https://badge.fury.io/js/into-to-rgb-x.svg"
+ * <a href="https://badge.fury.io/js/int-to-rgb-x" title="npm version">
+ * <img src="https://badge.fury.io/js/int-to-rgb-x.svg"
  * alt="npm version" height="18">
  * </a>
  *
@@ -30,7 +30,7 @@
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
- * @module into-to-rgb-x
+ * @module int-to-rgb-x
  */
 
 'use strict';
@@ -49,6 +49,6 @@ var intToRGB = function _intToRGB(i) {
  * @param {number} i Integer to be converted into 6 digit RGB.
  * @return {string} The RGB hexadecimal notation: #RRGGBB
  * @example
- * var intToRGB = require('into-to-rgb-x');
+ * var intToRGB = require('int-to-rgb-x');
  */
 module.exports = intToRGB;
