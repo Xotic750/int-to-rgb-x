@@ -47,4 +47,5 @@ into 6 digit RGB notation.
 **Example**  
 ```js
 var intToRGB = require('int-to-rgb-x');
+intToRGB()1; // "000001"
 ```

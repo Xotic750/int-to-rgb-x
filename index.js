@@ -50,5 +50,6 @@ var intToRGB = function _intToRGB(i) {
  * @return {string} The RGB hexadecimal notation: #RRGGBB
  * @example
  * var intToRGB = require('int-to-rgb-x');
+ * intToRGB()1; // "000001"
  */
 module.exports = intToRGB;
