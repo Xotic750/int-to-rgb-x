@@ -1,6 +1,6 @@
 {
   "name": "int-to-rgb-x",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert an integer to a RGB string module.",
   "homepage": "https://github.com/Xotic750/int-to-rgb-x",
   "author": {
@@ -9,7 +9,8 @@
   },
   "copyright": "Copyright (c) 2017",
   "keywords": [
-    "Boilerplate",
+    "integer",
+    "RGB",
     "module",
     "javascript",
     "nodejs",
