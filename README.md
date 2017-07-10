@@ -1,33 +1,29 @@
-<a name="module_int-to-rgb-x"></a>
-
-## int-to-rgb-x
 <a href="https://travis-ci.org/Xotic750/int-to-rgb-x"
-title="Travis status">
+   title="Travis status">
 <img
-src="https://travis-ci.org/Xotic750/int-to-rgb-x.svg?branch=master"
-alt="Travis status" height="18">
+   src="https://travis-ci.org/Xotic750/int-to-rgb-x.svg?branch=master"
+   alt="Travis status" height="18"/>
 </a>
 <a href="https://david-dm.org/Xotic750/int-to-rgb-x"
-title="Dependency status">
+   title="Dependency status">
 <img src="https://david-dm.org/Xotic750/int-to-rgb-x.svg"
-alt="Dependency status" height="18"/>
+   alt="Dependency status" height="18"/>
 </a>
-<a
-href="https://david-dm.org/Xotic750/int-to-rgb-x#info=devDependencies"
-title="devDependency status">
+<a href="https://david-dm.org/Xotic750/int-to-rgb-x#info=devDependencies"
+   title="devDependency status">
 <img src="https://david-dm.org/Xotic750/int-to-rgb-x/dev-status.svg"
-alt="devDependency status" height="18"/>
+   alt="devDependency status" height="18"/>
 </a>
 <a href="https://badge.fury.io/js/int-to-rgb-x" title="npm version">
 <img src="https://badge.fury.io/js/int-to-rgb-x.svg"
-alt="npm version" height="18">
+   alt="npm version" height="18"/>
 </a>
+<a name="module_int-to-rgb-x"></a>
 
-Convert an integer to a RGB string module.
+## int-to-rgb-x
+Convert an integer to a RGB string.
 
-Requires ES3 or above.
-
-**Version**: 1.0.3  
+**Version**: 1.1.0  
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
@@ -47,5 +43,5 @@ into 6 digit RGB notation.
 **Example**  
 ```js
 var intToRGB = require('int-to-rgb-x');
-intToRGB()1; // "#000001"
+intToRGB(1); // "#000001"
 ```
