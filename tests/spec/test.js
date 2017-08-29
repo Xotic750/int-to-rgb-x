@@ -26,6 +26,30 @@ describe('intToRGB', function () {
     expect(typeof intToRGB).toBe('function');
   });
 
+  it('non-numbers', function () {
+    var nonNumbers = [
+      void 0,
+      null,
+      '',
+      false,
+      '1',
+      true,
+      {},
+      [],
+      function () {}
+    ];
+
+    var expected = nonNumbers.map(function (item) {
+      return '#' + (Number(item) || 0).toString(16).padStart(6, '0').toUpperCase();
+    });
+
+    var actual = nonNumbers.map(function (item) {
+      return intToRGB(item);
+    });
+
+    expect(actual).toEqual(expected);
+  });
+
   it('-1 to be "#FFFFFF"', function () {
     expect(intToRGB(-1)).toBe('#FFFFFF');
   });

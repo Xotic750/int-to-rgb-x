@@ -1,6 +1,6 @@
 {
   "name": "int-to-rgb-x",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Convert an integer to a RGB string.",
   "homepage": "https://github.com/Xotic750/int-to-rgb-x",
   "author": {
@@ -29,8 +29,8 @@
     "url": "https://github.com/Xotic750/int-to-rgb-x/issues"
   },
   "dependencies": {
-    "string.prototype.padstart": "^3.0.0",
-    "to-uint-24-x": "^1.1.0"
+    "string-pad-start-x": "^1.0.0",
+    "to-uint-24-x": "^2.0.0"
   },
   "devDependencies": {
     "@xotic750/eslint-config-standard-x": "^2.2.1",

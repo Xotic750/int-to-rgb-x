@@ -23,7 +23,7 @@
 ## int-to-rgb-x
 Convert an integer to a RGB string.
 
-**Version**: 1.1.0  
+**Version**: 2.0.0  
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
