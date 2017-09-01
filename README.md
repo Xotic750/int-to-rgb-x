@@ -18,30 +18,3 @@
 <img src="https://badge.fury.io/js/int-to-rgb-x.svg"
    alt="npm version" height="18"/>
 </a>
-<a name="module_int-to-rgb-x"></a>
-
-## int-to-rgb-x
-Convert an integer to a RGB string.
-
-**Version**: 2.0.0  
-**Author**: Xotic750 <Xotic750@gmail.com>  
-**License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
-**Copyright**: Xotic750  
-<a name="exp_module_int-to-rgb-x--module.exports"></a>
-
-### `module.exports` ⇒ <code>string</code> ⏏
-Takes a number between 0 and 16777215 inclusive and converts it
-into 6 digit RGB notation.
-
-**Kind**: Exported member  
-**Returns**: <code>string</code> - The RGB hexadecimal notation: #RRGGBB  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| i | <code>number</code> | Integer to be converted into 6 digit RGB. |
-
-**Example**  
-```js
-var intToRGB = require('int-to-rgb-x');
-intToRGB(1); // "#000001"
-```
