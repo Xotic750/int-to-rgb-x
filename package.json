@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "cached-constructors-x": "^1.0.0",
-    "string-pad-start-x": "^1.1.0",
+    "string-pad-start-x": "^1.2.0",
     "to-uint-24-x": "^3.0.1"
   },
   "devDependencies": {
