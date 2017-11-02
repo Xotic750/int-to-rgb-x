@@ -1,6 +1,6 @@
 /**
  * @file Convert an integer to a RGB string.
- * @version 2.1.0
+ * @version 3.0.0
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
@@ -11,6 +11,9 @@
 
 var toUint24 = require('to-uint-24-x');
 var padStart = require('string-pad-start-x');
+var cachedCtrs = require('cached-constructors-x');
+var numbertoString = cachedCtrs.Number.prototype.toString;
+var toUpperCase = cachedCtrs.String.prototype.toUpperCase;
 
 /**
  * Takes a number between 0 and 16777215 inclusive and converts it
@@ -23,6 +26,5 @@ var padStart = require('string-pad-start-x');
  * intToRGB(1); // "#000001"
  */
 module.exports = function intToRGB(i) {
-  return '#' + padStart(toUint24(i).toString(16), 6, '0').toUpperCase();
+  return '#' + toUpperCase.call(padStart(numbertoString.call(toUint24(i), 16), 6, '0'));
 };
-
