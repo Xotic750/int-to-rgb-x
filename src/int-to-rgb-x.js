@@ -7,13 +7,12 @@
  * @module int-to-rgb-x
  */
 
-'use strict';
+const toUint24 = require('to-uint-24-x');
+const padStart = require('string-pad-start-x');
+const cachedCtrs = require('cached-constructors-x');
 
-var toUint24 = require('to-uint-24-x');
-var padStart = require('string-pad-start-x');
-var cachedCtrs = require('cached-constructors-x');
-var numbertoString = cachedCtrs.Number.prototype.toString;
-var toUpperCase = cachedCtrs.String.prototype.toUpperCase;
+const numbertoString = cachedCtrs.Number.prototype.toString;
+const {toUpperCase} = cachedCtrs.String.prototype;
 
 /**
  * Takes a number between 0 and 16777215 inclusive and converts it
@@ -26,5 +25,5 @@ var toUpperCase = cachedCtrs.String.prototype.toUpperCase;
  * intToRGB(1); // "#000001"
  */
 module.exports = function intToRGB(i) {
-  return '#' + toUpperCase.call(padStart(numbertoString.call(toUint24(i), 16), 6, '0'));
+  return `#${toUpperCase.call(padStart(numbertoString.call(toUint24(i), 16), 6, '0'))}`;
 };
