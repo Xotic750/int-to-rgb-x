@@ -21,27 +21,27 @@
 <a name="module_int-to-rgb-x"></a>
 
 ## int-to-rgb-x
+
 Convert an integer to a RGB string.
 
-**Version**: 3.0.0  
-**Author**: Xotic750 <Xotic750@gmail.com>  
-**License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
-**Copyright**: Xotic750  
 <a name="exp_module_int-to-rgb-x--module.exports"></a>
 
 ### `module.exports(i)` ⇒ <code>string</code> ⏏
+
 Takes a number between 0 and 16777215 inclusive and converts it
 into 6 digit RGB notation.
 
 **Kind**: Exported function  
-**Returns**: <code>string</code> - The RGB hexadecimal notation: "#RRGGBB".  
+**Returns**: <code>string</code> - The RGB hexadecimal notation: "#RRGGBB".
 
-| Param | Type | Description |
-| --- | --- | --- |
-| i | <code>number</code> | Integer to be converted into 6 digit RGB. |
+| Param | Type                | Description                               |
+| ----- | ------------------- | ----------------------------------------- |
+| i     | <code>number</code> | Integer to be converted into 6 digit RGB. |
 
-**Example**  
+**Example**
+
 ```js
-var intToRGB = require('int-to-rgb-x');
-intToRGB(1); // "#000001"
+import intToRGB from 'int-to-rgb-x';
+
+console.log(intToRGB(1)); // "#000001"
 ```
