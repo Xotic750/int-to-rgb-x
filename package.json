@@ -1,6 +1,6 @@
 {
   "name": "int-to-rgb-x",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Convert an integer to a RGB string.",
   "homepage": "https://github.com/Xotic750/int-to-rgb-x",
   "author": {
@@ -49,8 +49,8 @@
     "url": "https://github.com/Xotic750/int-to-rgb-x/issues"
   },
   "dependencies": {
-    "string-pad-start-x": "^2.0.2",
-    "to-uint-24-x": "^4.0.2"
+    "string-pad-start-x": "^2.0.3",
+    "to-uint-24-x": "^4.0.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
