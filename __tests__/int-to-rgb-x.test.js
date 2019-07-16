@@ -8,7 +8,7 @@ describe('intToRGB', function() {
 
   it('non-numbers', function() {
     expect.assertions(1);
-    /* eslint-disable-next-line no-void,lodash/prefer-noop */
+
     const nonNumbers = [void 0, null, '', false, '1', true, {}, [], function() {}];
 
     const expected = nonNumbers.map(function(item) {
