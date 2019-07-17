@@ -13,8 +13,10 @@ var toUpperCase = ZER0_STRING.toUpperCase;
  * @returns {string} The RGB hexadecimal notation: "#RRGGBB".
  */
 
-export default function intToRGB(i) {
+var intToRGB = function intToRGB(i) {
   return "#".concat(toUpperCase.call(padStart(numbertoString.call(toUint24(i), 16), TARGET_LENGTH, ZER0_STRING)));
-}
+};
+
+export default intToRGB;
 
 //# sourceMappingURL=int-to-rgb-x.esm.js.map

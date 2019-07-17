@@ -14,6 +14,8 @@ const {toUpperCase} = ZER0_STRING;
  * @param {number} i - Integer to be converted into 6 digit RGB.
  * @returns {string} The RGB hexadecimal notation: "#RRGGBB".
  */
-export default function intToRGB(i) {
+const intToRGB = function intToRGB(i) {
   return `#${toUpperCase.call(padStart(numbertoString.call(toUint24(i), 16), TARGET_LENGTH, ZER0_STRING))}`;
-}
+};
+
+export default intToRGB;
