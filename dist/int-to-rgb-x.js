@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-07-18T00:12:06.848Z",
+  "date": "2019-07-18T22:26:26.478Z",
   "describe": "",
   "description": "Convert an integer to a RGB string.",
   "file": "int-to-rgb-x.js",
   "hash": "25b373df858d2bacb43b",
   "license": "MIT",
-  "version": "4.0.6"
+  "version": "4.0.7"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
