@@ -1,6 +1,6 @@
 {
   "name": "int-to-rgb-x",
-  "version": "4.0.11",
+  "version": "4.0.12",
   "description": "Convert an integer to a RGB string.",
   "homepage": "https://github.com/Xotic750/int-to-rgb-x",
   "author": {
@@ -22,6 +22,7 @@
   ],
   "module": "dist/int-to-rgb-x.esm.js",
   "main": "dist/int-to-rgb-x.js",
+  "jsdelivr": "dist/int-to-rgb-x.min.js",
   "scripts": {
     "build:esm": "mkdirp dist && babel -s true --env-name esm src/int-to-rgb-x.js -o dist/int-to-rgb-x.esm.js",
     "build:base": "webpack --bail --progress --profile --colors",
@@ -49,8 +50,8 @@
     "url": "https://github.com/Xotic750/int-to-rgb-x/issues"
   },
   "dependencies": {
-    "string-pad-start-x": "^2.0.11",
-    "to-uint-24-x": "^4.0.11"
+    "string-pad-start-x": "^2.0.12",
+    "to-uint-24-x": "^4.0.12"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
@@ -88,7 +89,7 @@
     "eslint-plugin-html": "^6.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.13.6",
-    "eslint-plugin-jsdoc": "^15.7.1",
+    "eslint-plugin-jsdoc": "^15.7.2",
     "eslint-plugin-json": "^1.4.0",
     "eslint-plugin-lodash": "^5.1.0",
     "eslint-plugin-no-use-extend-native": "^0.4.1",
