@@ -35,6 +35,12 @@
 <img src="https://bettercodehub.com/edge/badge/Xotic750/int-to-rgb-x?branch=master"
   alt="bettercodehub score" height="18">
 </a>
+<a
+  href="https://coveralls.io/github/Xotic750/int-to-rgb-x?branch=master"
+  title="Coverage Status">
+<img src="https://coveralls.io/repos/github/Xotic750/int-to-rgb-x/badge.svg?branch=master"
+  alt="Coverage Status" height="18">
+</a>
 
 <a name="module_int-to-rgb-x"></a>
 
