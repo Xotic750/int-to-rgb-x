@@ -2,7 +2,7 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-08-06T21:23:10.071Z",
+  "date": "2019-08-07T01:35:56.404Z",
   "describe": "",
   "description": "Convert an integer to a RGB string.",
   "file": "int-to-rgb-x.js",
