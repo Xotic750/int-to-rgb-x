@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-08-13T15:03:29.527Z",
+  "date": "2019-08-14T15:30:05.433Z",
   "describe": "",
   "description": "Convert an integer to a RGB string.",
   "file": "int-to-rgb-x.js",
-  "hash": "b5127e0ac9750a61a76d",
+  "hash": "f2bd6e8c9ecf60d9f585",
   "license": "MIT",
-  "version": "4.0.17"
+  "version": "4.1.0"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -1233,7 +1233,8 @@ var to_primitive_x_esm_toPrimitive = function toPrimitive(input, preferredType) 
  *
  * @type number
  */
-/* harmony default export */ var nan_x_esm = (0 / 0);
+var constantNAN = 0 / 0;
+/* harmony default export */ var nan_x_esm = (constantNAN);
 
 
 // CONCATENATED MODULE: ./node_modules/parse-int-x/dist/parse-int-x.esm.js
@@ -1465,7 +1466,8 @@ var math_sign_x_esm_sign = function sign(x) {
  *
  * @type number
  */
-/* harmony default export */ var infinity_x_esm = (1 / 0);
+var constantInfinity = 1 / 0;
+/* harmony default export */ var infinity_x_esm = (constantInfinity);
 
 
 // CONCATENATED MODULE: ./node_modules/is-finite-x/dist/is-finite-x.esm.js
